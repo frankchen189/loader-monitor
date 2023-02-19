@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/loader-monitor/static/css/main.91a9d294.css",
+    "main.js": "/loader-monitor/static/js/main.b16e9c54.js",
+    "static/js/787.c1112931.chunk.js": "/loader-monitor/static/js/787.c1112931.chunk.js",
+    "index.html": "/loader-monitor/index.html",
+    "main.91a9d294.css.map": "/loader-monitor/static/css/main.91a9d294.css.map",
+    "main.b16e9c54.js.map": "/loader-monitor/static/js/main.b16e9c54.js.map",
+    "787.c1112931.chunk.js.map": "/loader-monitor/static/js/787.c1112931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91a9d294.css",
+    "static/js/main.b16e9c54.js"
+  ]
+}
