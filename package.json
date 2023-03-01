@@ -1,0 +1,24 @@
+{
+  "name": "loader-monitor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "reactflow": "^11.5.6"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frankchen189/loader-monitor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frankchen189/loader-monitor/issues"
+  },
+  "homepage": "https://github.com/frankchen189/loader-monitor#readme"
+}
