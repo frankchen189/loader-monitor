@@ -64,55 +64,55 @@ const initialNodes: Node[] = [
 ];
 
 const markerEnd = {
-    type: MarkerType.ArrowClosed,
-    color: '#000000',
+  type: MarkerType.ArrowClosed,
+  color: '#000000',
 }
 
 const initialEdges: Edge[] = [
-  { 
-    id: "e1-2", 
-    source: "1", 
-    target: "2", 
+  {
+    id: "e1-2",
+    source: "1",
+    target: "2",
     markerEnd: markerEnd
   },
 
-    { 
-        id: "e2-31", 
-        source: "2", 
-        target: "31",
-        markerEnd: markerEnd
-    },
-    { 
-        id: "e2-32", 
-        source: "2", 
-        target: "32",
-        markerEnd: markerEnd
-    },
-    { 
-        id: "e3-33", 
-        source: "2", 
-        target: "33",
-        markerEnd: markerEnd
-    },
+  {
+    id: "e2-31",
+    source: "2",
+    target: "31",
+    markerEnd: markerEnd
+  },
+  {
+    id: "e2-32",
+    source: "2",
+    target: "32",
+    markerEnd: markerEnd
+  },
+  {
+    id: "e3-33",
+    source: "2",
+    target: "33",
+    markerEnd: markerEnd
+  },
 
-    { 
-        id: "e31-41", 
-        source: "31", 
-        target: "41",
-        markerEnd: markerEnd
-    },
-    { 
-        id: "e32-42", 
-        source: "32", 
-        target: "42",
-        markerEnd: markerEnd
-    },
-    { 
-        id: "e33-43", 
-        source: "33", 
-        target: "43",
-        markerEnd: markerEnd
-    },
+  {
+    id: "e31-41",
+    source: "31",
+    target: "41",
+    markerEnd: markerEnd
+  },
+  {
+    id: "e32-42",
+    source: "32",
+    target: "42",
+    markerEnd: markerEnd
+  },
+  {
+    id: "e33-43",
+    source: "33",
+    target: "43",
+    markerEnd: markerEnd
+  },
 ];
 
 const BasicFlow = () => {
@@ -133,7 +133,7 @@ const BasicFlow = () => {
       onEdgesChange={onEdgesChange}
       onConnect={onConnect}
     >
-        
+
       <Controls />
       <Background />
     </ReactFlow>
