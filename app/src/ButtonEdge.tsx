@@ -29,8 +29,8 @@ export default function CustomEdge(
         targetY: number,
         sourcePosition: Position,
         targetPosition: Position,
-        style: {},
-        markerEnd: string,
+        style?: any,
+        markerEnd?: string | undefined,
     }
 ) {
     const [edgePath, labelX, labelY] = getBezierPath({
@@ -65,18 +65,6 @@ export default function CustomEdge(
                     <button className="edgebutton" onClick={(event) => onEdgeClick(event, id)}>
                         ?
                     </button>
-
-
-                    {/* <button
-                onMouseEnter={() => setIsShown(true)}
-                onMouseLeave={() => setIsShown(false)}>
-                    ?
-            </button>
-            {isShown && (
-                <div>
-                I'll appear when you hover over the button.
-                </div>
-            )} */}
                 </div>
             </foreignObject>
         </>
