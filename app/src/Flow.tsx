@@ -16,43 +16,65 @@ import ButtonEdge from './ButtonEdge';
 import "reactflow/dist/style.css";
 
 const initialNodes: Node[] = [
-  // step 1
-  // {
-  //   id: '2',
-
-  //   data: { label: 'Group A' },
-  //   position: { x: 100, y: 100 },
-  //   className: 'light',
-  //   style: {
-  //     backgroundColor: 'rgba(255, 0, 0, 0.2)', width: 200, height: 200
-  //   },
-  // },
+  // Step 1
+  {
+    id: 's1',
+    data: { label: 'Step 1. Data lines' },
+    position: { x: 50, y: -50 },
+    style: {
+      backgroundColor: 'rgba(236, 230, 25, 0.1)',
+      width: 700,
+      height: 100
+    },
+  },
   {
     id: "1",
     type: "input",
-    data: { label: `"books.csv" data lines` },
+    data: { label: `books.csv` },
     position: { x: 250, y: 5 }
   },
 
+  // Step 2
+  {
+    id: 's2',
+    data: { label: 'Step 2. Valid data lines' },
+    position: { x: 50, y: 50 },
+    style: {
+      backgroundColor: 'rgba(25, 236, 25, 0.1)',
+      width: 700,
+      height: 100
+    },
+  },
   {
     id: "2",
-    data: { label: `"books.csv" valid data lines` },
+    data: { label: `books.csv` },
     position: { x: 250, y: 100 }
   },
 
+  // Step 3
+  {
+    id: 's3',
+    data: { label: 'Step 3. Valid data objects' },
+    position: { x: 50, y: 150 },
+    style: {
+      backgroundColor: 'rgba(25, 93, 236, 0.1)',
+      width: 700,
+      height: 100
+    },
+  },
   {
     id: "31",
-    data: { label: `"Vertex Book" valid data objects` },
+    data: { label: `Vertex "Book"` },
     position: { x: 50, y: 200 }
   },
   {
     id: "32",
-    data: { label: `"Vertex Price" valid data objects` },
+    data: { label: `Vertex "Price"` },
     position: { x: 250, y: 200 }
   },
   {
     id: "33",
-    data: { label: `"Edge has" valid data objects` },
+    data: { label: `Edge "has"` },
     position: { x: 450, y: 200 }
   },
 
